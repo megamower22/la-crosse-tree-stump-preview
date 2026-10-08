@@ -16,8 +16,8 @@ Live preview: https://megamower22.github.io/la-crosse-tree-stump-preview/
 
 ## Good to know
 
-- **Colors** are at the top of `style.css` (look for `--green`, `--forest` and `--wood`).
+- **Colors** are at the top of `style.css` (look for `--rust`, `--cream` and `--black`).
 - Anything in yellow highlight that says **[Owner to confirm]** still needs real info from the owner. Once it's confirmed, delete the whole `<span class="placeholder">...</span>` part.
 - The phone number appears in several places. Search for `498-8733` (and `+16084988733` in the call links) to update all of them.
-- The Google rating ("5.0" and "36 reviews") appears in two places. Search for `36 reviews` / `36 Google reviews` to update it as more reviews come in.
+- The Google rating appears in two places: the big rating card near the top (`class="rating-score"` and `class="rating-count"`) and the "Rated 5.0 on Google" box. Search for `36 Google reviews` to update both as more reviews come in.
 - To remove the "Preview site" banner once the owner approves, delete the line with `class="preview-banner"` in `index.html`.
